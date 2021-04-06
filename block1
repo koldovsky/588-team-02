@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Store Website Template</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <img class="logo" src="#" alt="logo">
+            <b>CaliWines</b>
+            <br>
+            <b>Family-owned winery&shop</b>
+        </div>
+        <nav class="nav">
+            <a href="#">Best Deals</a>
+            <a href="#">About Us</a>
+            <a href="#">Shop</a>
+                <a href="#">Italy wines</a>
+                <a href="#">Georgia wines</a>
+                <a href="#">Transcarpathian wines</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <div class="icons">
+            <a href="https://uk-ua.facebook.com/">
+                <img src="#" alt="fb">
+            </a>
+            <a href="https://www.instagram.com/?hl=ru">
+                <img src="#" alt="inst">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="#" alt="youtube">
+            </a>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <b>Taste our</b>
+        <h1>Boutique <br> Wines</h1>
+        <img src="img/pattern.svg" alt="pattern">
+        <br>
+        <b>Grown with love and respect for the lands of the world.</b>
+        <br>
+        <a href="#shop">Shop now</a>
+        <a href="#specialize">Learn more</a>
+        <hr>
+        <div class="kind-of-wines">
+            <div class="w-italy">
+                <h2>Wines from Italy</h2>
+                <b>We have a great collection of exclusive reserve wines.</b>
+                <br>
+                <a href="">Learn more</a>
+            </div>
+            <div class="w-georgia">
+                <h2>Wines from Geogia</h2>
+                <b>Only natural wine without all kinds of additives or flavors.</b>
+                <br>
+                <a href="">Learn more</a>
+            </div>
+            <div class="w-transcarphatians">
+                <h2>Wines from Transcarphatians</h2>
+                <b>We produce and sell the finest wines made of the best grape varieties.</b>
+                <br>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+        <hr>
+        <div class="specialize">
+            <b>100% natural</b>
+            <h2>What every country specialize in</h2>
+            <img src="img/pattern.svg" alt="pattern">
+            <br>
+            <b>We use only 100% natural grapes, no impurities.</b>
+            <div class="carousel">
+                <div class="carousel-italia">
+                    <img src="img/italia-w.jpg" alt="italia-wine">
+                    <h3>Tuskany</h3>
+                    <b> The main red varieties are Sangiovese, Merlot, Cabernet Sauvignon, whites - Chardonnay,
+                        Vermentino,Trebbiano.Red samples account for about 84% of all wines produced. Tuscany is home to
+                        famous wines such as Chianti, Montepulciano and Brunello di
+                        Montalcino. They also create the famous Super Tuscan wines - "rebellious specimens", produced
+                        contrary to established winemaking traditions.
+                    </b>
+                    <h3>Piedmont</h3>
+                    <b> The main red varieties are Nebbiolo, Dolcetto, Barbera, Cabernet
+                        Sauvignon, whites are Cortese, Muscat, Arneis, Chardonnay. Of these, mainly vintage wines are
+                        produced in Piedmont, including: Barolo (one of the region's most revered wines, full-bodied
+                        taste with pronounced tannins); Barbaresco (spicy aroma, softer tannins); Gavi (one of the best
+                        "fish" Italian wines); Asti (white sparkling wine with a refreshing taste and fruity bouquet).
+                    </b>
+                    <h3>Veneto</h3>
+                    <b> The main varieties of the region are corvina, garganega, glera (prosecco), trebbiano di soave.
+                        Veneto is the birthplace of such legendary wines as white soave (dry and sweet still and
+                        sometimes
+                        sparkling versions), red valpolicella (classico, sweet recitos or dry amarone), bardolino (young
+                        red or more aged Classico).
+                    </b>
+                    <h3>Sicily</h3>
+                    <b>In Sicily, white wines are predominantly produced. The main white Sicilian varieties include
+                        ansonica, dzibibbo, catarratto, chardonnay, red - sira, nero d'avola, cabernet sauvignon,
+                        merlot. The most famous wines from the appellations are Cerasuolo di Vittoria, Conteadi
+                        Sclafani,
+                        Contessa Entillina, Etna. In addition, the iconic fortified wines of Marsala are created in
+                        Sicily.
+                    </b>
+                </div>
+                <div class="carousel-italia">
+                    <img src="img/georgia-w.jpg" alt="georgia-wine">
+                    <h3>Red wines</h3>
+                    <b>In Georgia, there are more than 500 autochthonous varieties, among which there are such iconic
+                        ones as Saperavi, Matrassa, Mtsvane and Rkatsiteli. Also, the country is divided into 5 wine
+                        regions: Kakheti, Kartli, Imereti, Racha-Lechkumi and the region of Guria and Samegrelo.The most
+                        popular red Georgian wines are considered to be Kindzmarauli, Khvanchkara, Akhasheni, Teliani,
+                        Kvareli, Mukuzani, Saperavi, Chkhaveri, Usakhelauri.
+                    </b>
+                    <h3>Dry red wine</h3>
+                    <b>Among the dry red wines of Georgia, it is worth highlighting:Teliani. Dry red table wine, on
+                        average, has a strength of 10 to 12%; Saperavi; Kvareli. It is also produced from Saperavi
+                        grapes using the Kakhetian technology. It is infused in oak barrels, but aging for more than
+                        three years can result in a heavy wine.</b>
+                    <h3>Semi-dry red wine</h3>
+                    <b>Among the semi-dry red wines of Georgia, Pirosmani is worth mentioning. This wine is deep
+                        burgundy in color. Its interesting feature is that it is naturally semi-dry. It is produced
+                        according to the Imeretian technology. The key difference from the Kakhetian one is that during
+                        the fermentation the grape twigs are separated.</b>
+                    <h3>Semi-sweet red</h3>
+                    <b>The best red semi-sweet Georgian wines are:Khvanchkaru. It belongs to the premium wine
+                        segment;Chkhaveri. It has an interesting color. Despite being considered red, it has a pinkish
+                        tint;Usakhelauri. Wine straight from Tsageri district. Positioned as premium semi-sweet
+                        red;Kindzmarauli. One of the most popular wines, and therefore it is produced in almost all
+                        wineries in Kakheti.</b>
+                    <h3>Homemade semi-sweet red</h3>
+                    <b>Undoubtedly, Mukuzani is considered to be the top among dry reds from Georgia. This wine is
+                        called masculine because of its high tannin, density and rich taste. The only way to drink this
+                        drink is long and small sips.It is made from Saperavi and therefore has a deep ruby ​​color.
+                        This drink is well suited for fatty dishes that are often found in Georgian cuisine. Also,
+                        Mukuzani should be drunk at a lower temperature than regular red wines - this way it feels more
+                        comfortable on the tongue.
+                    </b>
+                </div>
+                <div class="carousel-transcarpation">
+                    <img src="img/transcarpation-w.jpg" alt="transcarpation-wine">
+                    <h3>The Shosh family wine cellar</h3>
+                    <b>Karl Shosh's own works - "Carlot", "Tamyanka Pink", "Black Rose", personalized vermouths, as well
+                        as an amazing white Cahors wine made from white grape varieties, albeit in accordance with
+                        classical technology.
+                    </b>
+                    <h3>Celtic courtyard</h3>
+                    <b>In the green estate "Keltskiy Dvor" drinks that were consumed by these tribes are recreated. To
+                        understand their tastes and preferences, it is worth trying cider, ale, honey beer, graggert,
+                        fraoshan, sbiten. What about grappa, schnapps, orujo, brandy, calvados? Naturally, from local,
+                        Transcarpathian, raw materials.
+                    </b>
+                    <h3>Paraska's family basement</h3>
+                    <b>The local ice wine deserves special attention - ice wine made from grapes harvested after
+                        freezing. It makes a drink with a raisin flavor. Its production technology is expensive and
+                        costly, which is why ice wine is called a precious wine. After all, much less drink is obtained
+                        from frozen grapes. In addition, the grapes must also freeze properly - the temperature cannot
+                        be lower than –8 ºС.
+                    </b>
+                    <h3>Tasting room "Ursta"</h3>
+                    <b>Ursta offers nine varieties of wine for tasting. The subject of his special pride is the Unicum
+                        wine made from dried dark grapes (Saperavi, Dove and Cake Francoche). Also among the author's
+                        finds are the “Black Doctor” semi-sweet red vintage wine and the “Nectar” semi-sweet white
+                        blended wine. The list also includes Riesling, Saperavi, Cahors.
+                    </b>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
