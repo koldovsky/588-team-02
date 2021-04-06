@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+</head>
+<body>
+    <header>
+        <h1>Shopping cart</h1>
+    </header>
+    <main>
+        <h2>Products</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="/images/wine-sample.jpg" width="30" alt="wine icon">
+                </td>
+                <td>
+                    <p>Wine name</p>
+                </td>
+                <td>
+                    <input type="number" name="" min="1">
+                </td>
+                <td>
+                    <p>16 USD</p>
+                </td>
+                <td>
+                    <p>🗑</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"></td>
+                <td colspan="4">Total:36 USD</td>
+            </tr>
+        </table>
+        <article class="order.form">
+            <h2>Place an order</h2>
+            <form action="">
+            <label>
+                <p>Name *</p>
+                <input type="text" name="user-name" placeholder="Your name" required>
+            </label>
+            <label>
+                <p>Email *</p>
+                <input type="email" name="user-name" placeholder="Your email address" required>
+            </label>
+            <label>
+                <p>Phone *</p>
+                <input type="text" name="user-phone" placeholder="Your phone" required>
+            </label>
+            <label>
+                <p>Comment</p>
+                <textarea name="user-comment" cols="30" rows="4" placeholder="Your comment"></textarea>
+            </label>
+            <br>
+            <a href="/index.html">Continue shoppping</a>
+            <input type="submit" value="Order">
+            </form>
+        </article>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
