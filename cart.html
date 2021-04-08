@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cart.css">
     <title>Shopping cart</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
         <h1>Shopping cart</h1>
     </header>
     <main>
-        <h2>Products</h2>
+        <h2>PRODUCTS</h2>
         <a href="wines.html">Home</a>
         <table>
             <tr>
@@ -18,13 +19,13 @@
                     <img src="img/wine-sample.jpg" width="30" alt="wine icon">
                 </td>
                 <td>
-                    <p>Wine name</p>
+                    <p class="product-name">Wine name</p>
                 </td>
                 <td>
                     <input type="number" name="wine-amount" min="1">
                 </td>
                 <td>
-                    <p>16 USD</p>
+                    <p class="price">16 USD</p>
                 </td>
                 <td>
                     <p>🗑</p>
@@ -32,11 +33,11 @@
             </tr>
             <tr>
                 <td colspan="3"> </td>
-                <td colspan="2">Total:36 USD</td>
+                <td colspan="2" class="total">Total:36 USD</td>
             </tr>
         </table>
-        <article class="order.form">
-            <h2>Place an order</h2>
+        <article class="order-form">
+            <h2>PLACE AN ORDER</h2>
             <form action="https://formspree.io/#">
             <label>
                 Name *

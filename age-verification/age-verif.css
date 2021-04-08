@@ -1,1 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik:wght@300&display=swap');
+h1 {
+    font-family: prata;
+    font-size: 34px;
+    text-align: center;
+}
+
+p {
+    font-family: rubik;
+    font-size: 16px;
+    text-align: center;
+}
+
+nav a {
+    font-family: rubik;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
