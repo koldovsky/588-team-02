@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik:wght@300&display=swap');
+:root{
+    background-color: rgb(38, 30, 28, 1.0);
+    color: white;
+}
+.logo{
+    width:180px;
+    height:45px;
+}
+a > img{
+    width:26px;
+    height:26px;
+    border:1px solid white;
+    padding:5px;
+}
+.main-header{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 84px;
+}
+.subtitle{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+.w-italy > h2{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+.w-georgia > h2{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+.w-transcarphatians > h2{
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
