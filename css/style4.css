@@ -1,0 +1,16 @@
+.bgcolor{
+    background-color: #261e1c; 
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.section1{
+    text-align: center;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #261e1c;
+}
+
+.photo1{
+     float: right;
+   }
