@@ -1,46 +1,137 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik:wght@300&display=swap');
-:root{
+
+:root {
     background-color: rgb(38, 30, 28, 1.0);
     color: white;
 }
-.logo{
-    width:180px;
-    height:45px;
+
+.logo {
+    width: 180px;
+    height: 45px;
 }
-a > img{
-    width:26px;
-    height:26px;
-    border:1px solid white;
-    padding:5px;
+
+a>img {
+    width: 26px;
+    height: 26px;
+    border: 1px solid white;
+    padding: 5px;
 }
-.main-header{
+
+.main-header {
     font-family: 'Prata';
     font-style: normal;
     font-weight: 400;
     font-size: 84px;
 }
-.subtitle{
+
+.subtitle {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
 }
-.w-italy > h2{
+
+.w-italy>h2 {
     font-family: 'Prata';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
 }
-.w-georgia > h2{
+
+.w-georgia>h2 {
     font-family: 'Prata';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
 }
-.w-transcarphatians > h2{
+
+.w-transcarphatians>h2 {
     font-family: 'Prata';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
 }
+
+
+/*1st block ending*/
+h3 {
+    font-family: 'Prata';
+    font-size: 78px;
+    font-weight: 200;
+    color: white;
+}
+
+.italicf {
+    font-style: italic;
+    font-size: 23px;
+    color: coral;
+}
+
+.pinot-noir>h3 {
+    font-family: 'Prata';
+    font-size: 48px;
+    color: white;
+}
+
+.pinot-noir>h4 {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.riesling>h4 {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.zifandel>h4 {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.soave>h4 {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.discover-wines {
+    font-family: 'Prata';
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.subtext {
+    font-family: 'Prata';
+    font-size: 20px;
+    color: white;
+}
+
+.georgian-wines>h3 {
+    font-family: 'Prata';
+    font-size: 48px;
+    color: white;
+}
+
+.transcarpathian-wines>h3 {
+    font-family: 'Prata';
+    font-size: 48px;
+    color: white;
+}
+
+b {
+    font-family: 'Prata';
+    font-size: 20px;
+    color: white;
+}
+
+button {
+    background-color: coral;
+    color: white;
+}
+
+/*2d block ending*/
