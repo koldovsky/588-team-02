@@ -1,0 +1,63 @@
+<main>
+    <div>
+        <h2>Process of production</h2>
+        <h3>How we work</h3>
+        <p>We want to demonstrate the types of wine production of different countries</p>
+        <video src="">Play Video</video>
+        <a href="#watch-video">Watch video on Yotube</a>
+    </div> 
+    <hr>
+    <div>  
+        <article class="hot-sale">
+            <h3>Hot sale of Italian Wines</h3>
+            <p>Great selection of Italian Wines</p>
+            <button>Shop Italian Wines</button>
+       </article>
+    </div> 
+    <div>
+       <article class="hot-sale">
+            <h3>Hot sale of Transcarphatian Wines</h3>
+            <p>Great selection of Transcarphatian Wines</p>
+            <button>Shop Transcarphatian Wines</button>
+        </article>
+    </div>
+    <div>
+            <h2>HOT SALE</h2>
+            <p>COUNTDOWN 2D 14H 37M 10S</p>
+    </div>
+    <hr>
+    <div>
+        <h2>Awards<br>Our Wines Are Our Pride</h2>
+        <h3>The excellence of our wines has been proved by the following awards.</h3>
+    </div>
+    <section>
+        <img src="img/trans.jpg" alt="Transcarphatians">
+        <h3>Transcarphatians Wines</h3>
+        <h3>1916</h3>
+        <p>Only thanks to a small community of private winemakers, who in 2001 united in the agricultural cooperative
+            "Beregovo Wine Region", which became the basis for created in 2003, the only in Ukraine, Beregovo Knightly Wine Order named after St. Wenceslas Beregiv winemakers) 
+            and the efforts of the only in Ukraine, the Regional Association "Union of Private Winegrowers and Winemakers of Transcarpathia" (founded in 2007) 
+            manages to partially revive viticulture and historical wines and offer them for tasting to guests of the region.</p>
+    </section>
+        
+    <section>
+        <img src="img/geo.jpg" alt="Georgia">
+        <h3>Geogian Wines</h3>
+        <h3>1956</h3>
+        <p>Indigenous grape varieties have been bred 
+        in Georgia and there is a natural zoning of vines by varieties.
+        Own wine production technologies have been created: Kakheti, 
+        Imereti and Racha-Lechkhum (or production of semi-sweet wines)</p>
+    </section>
+        
+    <section>
+        <img src="img/italy.jpg" alt="Italy">
+        <h3>Italian Wines</h3>
+        <h3>1992</h3>
+        <p>Italy has a long tradition of winemaking, using its grape varieties and its methods,
+         which in recent years have become increasingly sophisticated. 
+         Even when Italian winemakers use international varieties such as Cabernet Sauvignon or Chardonnay, 
+         or modern techniques such as aging in new oak barrels, they give the wine a distinctive "Italian accent".</p>
+    </section>
+     
+</main>

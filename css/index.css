@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik:wght@300&display=swap');
 
 :root {
-    background-color: rgb(38, 30, 28, 1.0);
     color: white;
 }
 
@@ -198,7 +197,11 @@ a:hover {
     display: block;
     width: 100%;
     padding: 0;
+<<<<<<< HEAD
     background-image: url(../img/backgrounw.jpg);
+=======
+    background-image: url(../vovaimg/backgrounw.jpg); 
+>>>>>>> 18aa131629f58e985eff4c78dbc9c081fa19af2d
     background-size: cover;
 
 }
@@ -269,8 +272,13 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+<<<<<<< HEAD
     flex-direction: column;
     background-image: url(../img/geohotsale.jpg);
+=======
+    flex-direction:column;
+    background-image: url(../vovaimg/geohotsale.jpg);
+>>>>>>> 18aa131629f58e985eff4c78dbc9c081fa19af2d
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -285,8 +293,13 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+<<<<<<< HEAD
     flex-direction: column;
     background-image: url(../img/itahotsale.jpg);
+=======
+    flex-direction:column;
+    background-image: url(../vovaimg/itahotsale.jpg);
+>>>>>>> 18aa131629f58e985eff4c78dbc9c081fa19af2d
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -362,7 +375,7 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-image: url(../img/contdown.jpg);
+    background-image: url(../vovaimg/contdown.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
