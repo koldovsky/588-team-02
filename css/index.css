@@ -188,7 +188,7 @@ a:hover {
     display: block;
     width: 100%;
     padding: 0;
-    background-image: url(../img/backgrounw.jpg); 
+    background-image: url(../vovaimg/backgrounw.jpg); 
     background-size: cover;
     
 }
@@ -260,7 +260,7 @@ a:hover {
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction:column;
-    background-image: url(../img/geohotsale.jpg);
+    background-image: url(../vovaimg/geohotsale.jpg);
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -276,7 +276,7 @@ a:hover {
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction:column;
-    background-image: url(../img/itahotsale.jpg);
+    background-image: url(../vovaimg/itahotsale.jpg);
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -352,7 +352,7 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    background-image: url(../img/contdown.jpg);
+    background-image: url(../vovaimg/contdown.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
