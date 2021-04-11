@@ -135,3 +135,362 @@ button {
 }
 
 /*2d block ending*/
+
+/*3 BLOCK TRETIY KURWA BLOCK NE 4IPATI ! ! ! ! ! */
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+:root {
+    --main-color: white;
+    --accent-color: #261e1c;
+    --orange-color: #c8693a;
+    --black-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+main {
+    display: block;
+    width: 100%;
+}
+
+
+a {
+    color: var(--main-color);
+    font-family: verdana;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Poiret One';
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    font-family: 'Poiret One';
+    
+}
+ 
+/* INFO-BLOCK START */
+
+.info-block {   
+    display: block;
+    width: 100%;
+    padding: 0;
+    background-image: url(../img/backgrounw.jpg); 
+    background-size: cover;
+    
+}
+
+.info {
+    padding: 50px;
+}
+
+.info-block h3 {
+    font-family: 'Prata';
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+.info-block h2 {
+    font-family: 'Seaweed Script';
+    font-size: 20px;
+    color: var(--orange-color);
+}
+
+.info-block p {
+    font-family: 'Poiret One';
+    color: var(--main-color);
+    text-align: start;
+}
+
+.video {
+    max-width: 320px;
+    max-height: 220px;
+    border-radius: 10%;
+    box-shadow: 0 2px 4px 0 var(--accent-color);
+    transition: 0.3s;
+}
+
+.video:hover {
+    box-shadow: 0 4px 8px 0 var(--orange-color);
+}
+
+@media (min-width: 440px) {
+    .info-block {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+}
+
+@media (min-width: 660px) {
+    .info-block {       
+        grid-template-columns: 1fr 1fr;       
+    }
+}
+
+@media (min-width: 980px) {
+    .info-block {       
+        grid-template-columns: 1fr 1fr;       
+    }
+}
+
+
+/* INFO-BLOCK END */
+/* CARD START */
+
+.card-list {   
+    padding: 50px 30px 0px 30px;
+}
+
+.card-list .card-geo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction:column;
+    background-image: url(../img/geohotsale.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px 0 var(--orange-color);
+    transition: 0.3s;
+    min-width: 320px;
+    min-height: 220px;
+}
+
+.card-list .card-ita {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction:column;
+    background-image: url(../img/itahotsale.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px 0 var(--orange-color);
+    transition: 0.3s;
+    min-width: 320px;
+    min-height: 220px;
+    
+}
+
+.card-list .card-geo:hover,
+.card-list .card-ita:hover {
+    box-shadow: 0 4px 8px 0 var(--orange-color);
+}
+
+.card-list h3 {
+    font-family: 'Prata';
+    font-size: 20px;
+    color: var(--main-color);
+    text-shadow: 2px 2px 2px var(--black-color);
+    padding: 1px;
+    text-align: center;
+}
+
+.card-list p {
+    font-family: 'Poiret One';
+    font-size: 15px;
+    color: var(--main-color);
+    text-shadow: 2px 2px 2px var(--black-color);
+    padding: 1px;
+    text-align: center;
+}
+
+.card-but .button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+@media (min-width: 440px) {
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+}
+
+@media (min-width: 660px) {
+    .card-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    .card-list {        
+        grid-template-columns: 1fr 1fr;       
+    }
+}
+
+/* CARD END */
+/* COUNTDOWN START */
+
+.c-block {
+    padding: 0px 30px 50px 30px;
+}
+
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/contdown.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px 0 var(--orange-color);
+    transition: 0.3s;
+    min-width: 840px;
+    min-height: 180px;
+}
+
+.countdown:hover {
+    box-shadow: 0 4px 8px 0 var(--orange-color);
+}
+
+.countdown p {
+    padding: 20px;
+    text-align: center;
+}
+
+.countdown h3, p {
+    text-align: center;
+    font-family: 'Prata';
+    color: var(--main-color);
+}
+
+/* COUNTDOWN END */
+
+.awards {
+    background-color: var(--accent-color);
+}
+
+/* AWARDS-TOPPER START */
+
+.toper-awards {
+    display: block;
+    text-align: center;
+}
+
+.toper-awards h2 {
+    color: var(--orange-color);
+    font-family: "Seaweed Script";
+    font-size: 25px;
+}
+
+.toper-awards h3 {
+    color: var(--main-color);
+    font-family: 'Prata';
+    font-size: 40px;
+}
+
+.toper-awards p {
+    color: var(--main-color);
+    font-family: 'Poiret One';
+    font-size: 15px;
+}
+
+/* AWARDS-TOPPER END */
+
+/*AWARD-LIST START*/
+
+.award-list {
+    padding: 40px 0px 10px 0px;
+}
+
+.award-list p {
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    max-width: 300px;
+    max-height: 300px;
+    font-family: 'Poiret One';
+    font-size: 10px;
+    color: var(--main-color);
+}
+
+.award-list h4 {
+    font-family: 'Prata';
+    color: var(--main-color);
+    font-size: 13px;
+}
+
+.award-list h3 {
+    font-family: 'Poiret One';
+    font-size: 10px;
+    color: var(--main-color);
+}
+
+.wine-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+
+}
+
+.wine-info img {
+    width: 120px;
+    height: 60px;
+    box-shadow: 0 2px 4px 0 var(--orange-color);
+    transition: 0.3s;
+}
+
+.wine-info img:hover {
+    box-shadow: 0 4px 8px 0 var(--orange-color);
+}
+
+/*AWARD-LIST END*/
+
+/* Controls */
+
+.button {
+    padding: 0px;
+    margin: 0 0.3em 0.3em 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: var(--orange-color);
+    font-size: 10px;
+}
+
+.button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.card-button {
+    border-color: black;
+    color: black;
+}
+
+.card-button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* VIN SI ZAKIN4YV 3 BLOCK END */
