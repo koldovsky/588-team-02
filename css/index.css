@@ -55,82 +55,92 @@ a>img {
 
 
 /*1st block ending*/
-h3 {
-    font-family: 'Prata';
-    font-size: 78px;
-    font-weight: 200;
-    color: white;
+:root {
+    --main-color: #261e1c;
+    --orange-color: #c8693a;
+    scroll-behavior: smooth;
 }
 
-.italicf {
-    font-style: italic;
-    font-size: 23px;
-    color: coral;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.pinot-noir>h3 {
-    font-family: 'Prata';
-    font-size: 48px;
-    color: white;
+body {
+    max-width: 980px;
+    margin: auto;
+    background-color: var(--main-color);
 }
 
-.pinot-noir>h4 {
-    font-size: 25px;
-    font-weight: 400;
-    color: white;
+
+.product-content img {
+    max-width: 200px;
+    max-height: 200px;
 }
 
-.riesling>h4 {
-    font-size: 25px;
-    font-weight: 400;
-    color: white;
+.product-content section .card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    box-shadow: 0 2px 4px 0 var(--orange-color);
+    transition: 0.3s;
+    margin: auto;
+    max-width: 200px;
+    max-height: 200px;
 }
 
-.zifandel>h4 {
-    font-size: 25px;
-    font-weight: 400;
-    color: white;
+
+.product-content:hover {
+    box-shadow: 0 4px 8px 0 var(--orange-color);
+
 }
 
-.soave>h4 {
-    font-size: 25px;
-    font-weight: 400;
-    color: white;
+section .card-text {
+    text-align: center;
 }
 
-.discover-wines {
-    font-family: 'Prata';
-    font-size: 60px;
-    font-weight: 700;
-    color: white;
+
+.italian-wine,
+.georgian-wine,
+.tcp-wine {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 50px;
 }
 
-.subtext {
-    font-family: 'Prata';
-    font-size: 20px;
-    color: white;
+.shop-list {
+    background-color: var(--main-color);
+
 }
 
-.georgian-wines>h3 {
-    font-family: 'Prata';
-    font-size: 48px;
-    color: white;
+
+/* Controls */
+
+.button {
+    padding: 0px;
+    margin: 0 0.3em 0.3em 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: var(--orange-color);
+    font-size: 10px;
 }
 
-.transcarpathian-wines>h3 {
-    font-family: 'Prata';
-    font-size: 48px;
-    color: white;
+.button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    cursor: pointer;
 }
 
-b {
-    font-family: 'Prata';
-    font-size: 20px;
-    color: white;
+.card-button {
+    border-color: black;
+    color: black;
 }
 
-button {
-    background-color: coral;
+.card-button:hover {
+    background-color: black;
     color: white;
 }
 
@@ -179,18 +189,18 @@ a:hover {
     color: red;
     text-decoration: none;
     font-family: 'Poiret One';
-    
+
 }
- 
+
 /* INFO-BLOCK START */
 
-.info-block {   
+.info-block {
     display: block;
     width: 100%;
     padding: 0;
-    background-image: url(../img/backgrounw.jpg); 
+    background-image: url(../img/backgrounw.jpg);
     background-size: cover;
-    
+
 }
 
 .info {
@@ -236,14 +246,14 @@ a:hover {
 }
 
 @media (min-width: 660px) {
-    .info-block {       
-        grid-template-columns: 1fr 1fr;       
+    .info-block {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 980px) {
-    .info-block {       
-        grid-template-columns: 1fr 1fr;       
+    .info-block {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -251,7 +261,7 @@ a:hover {
 /* INFO-BLOCK END */
 /* CARD START */
 
-.card-list {   
+.card-list {
     padding: 50px 30px 0px 30px;
 }
 
@@ -259,7 +269,7 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    flex-direction:column;
+    flex-direction: column;
     background-image: url(../img/geohotsale.jpg);
     background-size: cover;
     background-position: center;
@@ -275,7 +285,7 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    flex-direction:column;
+    flex-direction: column;
     background-image: url(../img/itahotsale.jpg);
     background-size: cover;
     background-position: center;
@@ -285,7 +295,7 @@ a:hover {
     transition: 0.3s;
     min-width: 320px;
     min-height: 220px;
-    
+
 }
 
 .card-list .card-geo:hover,
@@ -316,7 +326,7 @@ a:hover {
     justify-content: space-around;
     margin-top: 10px;
     padding: 5px;
-    
+
 }
 
 @media (min-width: 440px) {
@@ -334,8 +344,8 @@ a:hover {
 }
 
 @media (min-width: 980px) {
-    .card-list {        
-        grid-template-columns: 1fr 1fr;       
+    .card-list {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -372,7 +382,8 @@ a:hover {
     text-align: center;
 }
 
-.countdown h3, p {
+.countdown h3,
+p {
     text-align: center;
     font-family: 'Prata';
     color: var(--main-color);
@@ -491,6 +502,9 @@ a:hover {
     background-color: black;
     color: white;
 }
+
+
+/* VIN SI ZAKIN4YV 3 BLOCK END */
 
 
 /* VIN SI ZAKIN4YV 3 BLOCK END */
