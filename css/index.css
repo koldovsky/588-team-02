@@ -17,7 +17,293 @@
 }
 
 /* 1 BLOCK START !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+* {padding: 0;margin: 0;border: 0;}
+*,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active {outline: none;}
+a:focus,a:active {outline: none;}
+nav,footer,header,aside {display: block;}
+html,body {height: 100%;width: 100%;font-size: 100%;line-height: 1;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
 
+.wrap{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.site-title{ 
+    background: url(../img/site-title-background.webp) center no-repeat fixed;
+    background-size: 100% auto;
+}
+
+header{
+    background-color: rgba(0,0,0,0.5);
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    padding: 7px 10px;
+}
+
+nav ul li a{
+    color:white;
+    font-size: bold;
+}
+
+nav ul li ul{
+    display:none;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+nav ul{
+    position:relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul li ul{
+    position:absolute;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 3px;
+    top: 30px;
+    left:0px;
+}
+
+nav ul li ul li{
+    color:black;
+}
+
+nav{
+    display: block;
+    float: right; 
+    padding-top: 20px;
+}
+
+.logo{
+    width:180px;
+    height:45px;
+    display: inline-block;
+    margin: 20px;
+}
+
+header .icons a img{
+    width:26px;
+    height:26px;
+    border:1px solid white;
+    padding:5px;  
+}
+
+header .icons{
+    display: inline-block;
+}
+
+.taste-our{
+    display: flex;
+    justify-content: flex-end;
+    margin-left:400px;
+    margin-top:200px;
+}
+
+.site-title i{
+    font-size: 28px;
+}
+
+.site-title h1{
+    font-size: 84px;   
+}
+
+.site-title b{
+    font-size: 18px;
+    display: block;
+    margin-top: 20px; 
+}
+
+.site-title a{
+    font-size: 18px; 
+    display: inline-block; 
+    margin-top: 20px; 
+}
+.shop-now{
+    background-color: brown; 
+    padding: 10px 20px;
+    color:  rgb(255, 255, 255)
+}
+
+.learn-more{
+    border: rgb(255, 255, 255) solid;
+    padding: 10px 20px;
+    color:  rgb(255, 255, 255)   
+}
+
+.types-wine div.wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+    padding-top: 100px;   
+}
+
+.item-italy{ 
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url(../img/w-from-italia.webp);
+    background-size: 100% auto;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    width: 300px;
+    height: 380px;
+    padding-top: 250px;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+.item-italy:hover{
+    transform: scale(1.1);
+}
+
+.item-georgia{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url(../img/w-from-georgia.webp);
+    background-size: 100% auto;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    width: 300px;
+    height: 380px;
+    padding-top: 250px;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+.item-georgia:hover{
+    transform: scale(1.1);
+}
+
+.item-transcarpathian{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: url(../img/w-from-transcarpathian.webp);
+    background-size: 100% auto;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    width: 300px;
+    height: 380px;
+    padding-top: 250px;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+.item-transcarpathian:hover{
+    transform: scale(1.1);
+}
+
+.item-italy span{
+    font-size: 22px;
+    color:white;
+}
+
+.item-georgia span{
+    font-size: 22px;
+    color:white;
+}
+
+.item-transcarpathian span{
+    font-size: 22px;
+    color:white;
+}
+
+.item-italy, .item-georgia, .item-transcarpathian p{
+    font-size: 16px;
+    color:rgb(110, 110, 110);
+}
+
+.item-italy a{
+    font-size: 16px bold;
+    color:white;
+}
+
+.item-italy a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.item-georgia a{
+    font-size: 16px bold;
+    color:white;
+}
+
+.item-georgia a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.item-transcarpathian a{
+    font-size: 16px bold;
+    color:white;
+}
+
+.item-transcarpathian a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.specialize{
+    padding: 100px 0px 100px 0px;
+    margin-bottom: 100px;
+}
+
+.specialize .wrap :nth-child(1){
+    text-align: center;
+}
+
+.specialize-natural h2{
+    font-family: 'Prata';
+    font-size: 40px;
+}
+.specialize-natural span{
+    font-size: 40px;
+}
+
+.specialize-i{
+    padding-top: 50px;
+}
+
+.specialize-i-img{
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8); 
+}
+
+.item-i{
+    margin-left: 620px;  
+}
+
+.item-i span:hover{
+    color: rgb(218, 142, 71); 
+    text-shadow: 5px 5px 10px  black; 
+    margin-left: 300px;
+}
+
+.item-i p{
+    text-align: justify;
+}
+
+.item-i span{
+    font-size: 22px ;
+}
+
+.item-i p{
+    font-size: 16px ;
+}
 
 /* 1 BLOCK END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /* 2 BLOCK START !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
