@@ -144,9 +144,7 @@ section .card-text {
 }
 
 /*2d block ending*/
-
-/*3 BLOCK TRETIY KURWA BLOCK NE 4IPATI ! ! ! ! ! */
-
+/* 3 BLOCK SI PO4AV !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
@@ -188,22 +186,18 @@ a:hover {
     color: red;
     text-decoration: none;
     font-family: 'Poiret One';
-
+    
 }
-
+ 
 /* INFO-BLOCK START */
 
-.info-block {
+.info-block {   
     display: block;
     width: 100%;
     padding: 0;
-<<<<<<< HEAD
-    background-image: url(../img/backgrounw.jpg);
-=======
     background-image: url(../vovaimg/backgrounw.jpg); 
->>>>>>> 18aa131629f58e985eff4c78dbc9c081fa19af2d
     background-size: cover;
-
+    
 }
 
 .info {
@@ -232,12 +226,12 @@ a:hover {
     max-width: 320px;
     max-height: 220px;
     border-radius: 10%;
-    box-shadow: 0 2px 4px 0 var(--accent-color);
+    box-shadow: 0 4px 8px 0 var(--accent-color);
     transition: 0.3s;
 }
 
 .video:hover {
-    box-shadow: 0 4px 8px 0 var(--orange-color);
+    box-shadow: 0 8px 16px 0 var(--orange-color);
 }
 
 @media (min-width: 440px) {
@@ -249,14 +243,14 @@ a:hover {
 }
 
 @media (min-width: 660px) {
-    .info-block {
-        grid-template-columns: 1fr 1fr;
+    .info-block {       
+        grid-template-columns: 1fr 1fr;       
     }
 }
 
 @media (min-width: 980px) {
-    .info-block {
-        grid-template-columns: 1fr 1fr;
+    .info-block {       
+        grid-template-columns: 1fr 1fr;       
     }
 }
 
@@ -264,7 +258,7 @@ a:hover {
 /* INFO-BLOCK END */
 /* CARD START */
 
-.card-list {
+.card-list {   
     padding: 50px 30px 0px 30px;
 }
 
@@ -272,13 +266,8 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-<<<<<<< HEAD
-    flex-direction: column;
-    background-image: url(../img/geohotsale.jpg);
-=======
     flex-direction:column;
     background-image: url(../vovaimg/geohotsale.jpg);
->>>>>>> 18aa131629f58e985eff4c78dbc9c081fa19af2d
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -293,13 +282,8 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-<<<<<<< HEAD
-    flex-direction: column;
-    background-image: url(../img/itahotsale.jpg);
-=======
     flex-direction:column;
     background-image: url(../vovaimg/itahotsale.jpg);
->>>>>>> 18aa131629f58e985eff4c78dbc9c081fa19af2d
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -308,7 +292,7 @@ a:hover {
     transition: 0.3s;
     min-width: 320px;
     min-height: 220px;
-
+    
 }
 
 .card-list .card-geo:hover,
@@ -339,7 +323,7 @@ a:hover {
     justify-content: space-around;
     margin-top: 10px;
     padding: 5px;
-
+    
 }
 
 @media (min-width: 440px) {
@@ -357,8 +341,8 @@ a:hover {
 }
 
 @media (min-width: 980px) {
-    .card-list {
-        grid-template-columns: 1fr 1fr;
+    .card-list {        
+        grid-template-columns: 1fr 1fr;       
     }
 }
 
@@ -395,8 +379,7 @@ a:hover {
     text-align: center;
 }
 
-.countdown h3,
-p {
+.countdown h3, p {
     text-align: center;
     font-family: 'Prata';
     color: var(--main-color);
@@ -516,8 +499,6 @@ p {
     color: white;
 }
 
+/*3 BLOCK TRETIY KURWA :D BLOCK NE 4IPATI !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-/* VIN SI ZAKIN4YV 3 BLOCK END */
 
-
-/* VIN SI ZAKIN4YV 3 BLOCK END */
