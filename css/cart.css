@@ -1,32 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik:wght@300&display=swap');
+
+@media (max-width: 480px) {
+    body {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    body {
+        width: 420px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        width: 822px;
+        margin: auto;
+    }
+}
+
 :root {
     --main-color: rgb(38,30,28);
     --font-rubik: rubik, sans-serif;
     color: var(--main-color);
-    font-family: var(--font-rubik);
+    font-family: var(--font-rubik, sans-serif);
     font-weight: 400;
+}
+
+header {
+    padding: 16px 24px 16px 24px;
+    background-color: #f7f8fa;
 }
 h1 {
     font-size: 18px;
     font-weight: 700;
 }
+
 h2 {
     font-size: 14px;
 }
+
 .product-name{
     font-size: 12px;
     font-weight: 700;
 }
+
 .price{
     font-size:14px;
 }
+
 .total{
     font-size:18px;
 }
+
 .order-form label {
     font-size: 16px;
 }
+
 input, textarea{
     font-family: var(--font-rubik);
 }
