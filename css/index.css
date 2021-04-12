@@ -1,5 +1,3 @@
-
-
 /* FONTS DODAVAITE I NICHOGO NE VIDALYAITE AKUTATNISHE Z KODOM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 
@@ -9,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 :root {
     --main-color: white;
@@ -16,6 +15,7 @@
     --orange-color: #c8693a;
     scroll-behavior: smooth;
 }
+
 /* 1 BLOCK START !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
@@ -81,10 +81,55 @@ section .card-text {
 }
 
 .shop-list {
-   background-color: var(--back-color);
+    background-color: var(--back-color);
 
 }
 
+.buy-wines img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.italicf {
+    font-family: 'Great Vibes', cursive;
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(200, 105, 58);
+    text-align: center;
+}
+
+.buy-wines h2 {
+    font-family: 'Prata', serif;
+    font-size: 71px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.subtext {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.top-text h3 {
+    font-family: 'Prata', serif;
+    font-size: 41px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.product-content p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+
+}
 
 /* Controls */
 
@@ -147,18 +192,18 @@ a:hover {
     color: red;
     text-decoration: none;
     font-family: 'Poiret One';
-    
+
 }
- 
+
 /* INFO-BLOCK START */
 
-.info-block {   
+.info-block {
     display: block;
     width: 100%;
     padding: 0;
-    background-image: url(../vovaimg/backgrounw.jpg); 
+    background-image: url(../vovaimg/backgrounw.jpg);
     background-size: cover;
-    
+
 }
 
 .info {
@@ -204,14 +249,14 @@ a:hover {
 }
 
 @media (min-width: 660px) {
-    .info-block {       
-        grid-template-columns: 1fr 1fr;       
+    .info-block {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 980px) {
-    .info-block {       
-        grid-template-columns: 1fr 1fr;       
+    .info-block {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -219,7 +264,7 @@ a:hover {
 /* INFO-BLOCK END */
 /* CARD START */
 
-.card-list {   
+.card-list {
     padding: 50px 30px 0px 30px;
 }
 
@@ -227,7 +272,7 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    flex-direction:column;
+    flex-direction: column;
     background-image: url(../vovaimg/geohotsale.jpg);
     background-size: cover;
     background-position: center;
@@ -243,7 +288,7 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    flex-direction:column;
+    flex-direction: column;
     background-image: url(../vovaimg/itahotsale.jpg);
     background-size: cover;
     background-position: center;
@@ -253,7 +298,7 @@ a:hover {
     transition: 0.3s;
     min-width: 320px;
     min-height: 220px;
-    
+
 }
 
 .card-list .card-geo:hover,
@@ -284,7 +329,7 @@ a:hover {
     justify-content: space-around;
     margin-top: 10px;
     padding: 5px;
-    
+
 }
 
 @media (min-width: 440px) {
@@ -302,8 +347,8 @@ a:hover {
 }
 
 @media (min-width: 980px) {
-    .card-list {        
-        grid-template-columns: 1fr 1fr;       
+    .card-list {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -340,7 +385,8 @@ a:hover {
     text-align: center;
 }
 
-.countdown h3, p {
+.countdown h3,
+p {
     text-align: center;
     font-family: 'Prata';
     color: var(--main-color);
@@ -460,6 +506,7 @@ a:hover {
     color: white;
 }
 
+<<<<<<< HEAD
 /*3 BLOCK TRETIY KURWA :D BLOCK NE 4IPATI !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .back{
@@ -497,3 +544,6 @@ li p:hover{
 .shipping{
       
    }
+=======
+/*3 BLOCK TRETIY KURWA :D BLOCK NE 4IPATI !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+>>>>>>> af3f80a7d9e2340c12179312ba6d2dee0f8fa2b0
