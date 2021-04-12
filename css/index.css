@@ -29,6 +29,7 @@
 body {
     max-width: 980px;
     margin: auto;
+
 }
 
 /* BACKGROUND*/
@@ -171,6 +172,7 @@ section .card-text {
 body {
     max-width: 980px;
     margin: auto;
+    background-color: var(--back-color);
 }
 
 
@@ -506,8 +508,10 @@ p {
     color: white;
 }
 
-<<<<<<< HEAD
 /*3 BLOCK TRETIY KURWA :D BLOCK NE 4IPATI !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*4 BLOCK START ADRIIIIIAAAAN BUDb YVAJNIM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 
 .back{
     background-color: #261e1c; 
@@ -523,12 +527,12 @@ p {
     
 }
 
-li p{
+.question li p{
     text-align: initial;
 
 }
 
-li p:hover{
+.question li p:hover{
     text-align: initial;
     color: red;
     text-decoration: none;
@@ -541,9 +545,6 @@ li p:hover{
      max-height: 400px;
    }
 
-.shipping{
-      
-   }
-=======
-/*3 BLOCK TRETIY KURWA :D BLOCK NE 4IPATI !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
->>>>>>> af3f80a7d9e2340c12179312ba6d2dee0f8fa2b0
+
+
+   /*4 BLOCK END ADRIIIIIAAAAN BUDb YVAJNIM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
