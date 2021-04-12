@@ -462,4 +462,38 @@ a:hover {
 
 /*3 BLOCK TRETIY KURWA :D BLOCK NE 4IPATI !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+.back{
+    background-color: #261e1c; 
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
 
+
+.testimotials{
+    text-align: center;
+    color: white;
+    
+    
+}
+
+li p{
+    text-align: initial;
+
+}
+
+li p:hover{
+    text-align: initial;
+    color: red;
+    text-decoration: none;
+    
+}
+
+.wine{
+     float: right;
+     max-width: 250px;
+     max-height: 400px;
+   }
+
+.shipping{
+      
+   }
