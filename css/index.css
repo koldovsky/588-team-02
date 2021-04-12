@@ -1,65 +1,26 @@
+
+
+/* FONTS DODAVAITE I NICHOGO NE VIDALYAITE AKUTATNISHE Z KODOM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
 
 :root {
-    color: white;
-}
-
-.logo {
-    width: 180px;
-    height: 45px;
-}
-
-a>img {
-    width: 26px;
-    height: 26px;
-    border: 1px solid white;
-    padding: 5px;
-}
-
-.main-header {
-    font-family: 'Prata';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 84px;
-}
-
-.subtitle {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-}
-
-.w-italy>h2 {
-    font-family: 'Prata';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-}
-
-.w-georgia>h2 {
-    font-family: 'Prata';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-}
-
-.w-transcarphatians>h2 {
-    font-family: 'Prata';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-}
-
-
-/*1st block ending*/
-:root {
-    --main-color: #261e1c;
+    --main-color: white;
+    --back-color: #261e1c;
     --orange-color: #c8693a;
     scroll-behavior: smooth;
 }
+/* 1 BLOCK START !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+
+/* 1 BLOCK END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* 2 BLOCK START !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 * {
     margin: 0;
     padding: 0;
@@ -68,9 +29,20 @@ a>img {
 body {
     max-width: 980px;
     margin: auto;
-    background-color: var(--main-color);
 }
 
+/* BACKGROUND*/
+
+.buy-wines {
+    background-image: url(../alblockimg/alback.jpg);
+    background-position: center;
+    background-size: cover;
+    min-width: 980px;
+    min-height: 400px;
+
+}
+
+/* BACKGROUND*/
 
 .product-content img {
     max-width: 200px;
@@ -109,7 +81,7 @@ section .card-text {
 }
 
 .shop-list {
-    background-color: var(--main-color);
+   background-color: var(--back-color);
 
 }
 
@@ -143,20 +115,9 @@ section .card-text {
     color: white;
 }
 
-/*2d block ending*/
+/*2d block ending !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 /* 3 BLOCK SI PO4AV !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
-
-:root {
-    --main-color: white;
-    --accent-color: #261e1c;
-    --orange-color: #c8693a;
-    --black-color: black;
-}
-
 * {
     margin: 0;
     padding: 0;
