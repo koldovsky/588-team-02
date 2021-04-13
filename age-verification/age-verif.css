@@ -1,20 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@media (min-width: 1280px) {
+    body {
+        width: 740px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1279px) {
+    body {
+        width: 580px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 770px) {
+    body {
+        width: 480px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        min-width: 320px;
+    }
+}
+
+body {
+    --bg-color: #261e1c;
+    --txt-color: #fff;
+    background-color: var(--bg-color);
+    padding: 80px 0 80px 0;
+}
+
 h1 {
     font-family: prata;
     font-size: 34px;
+    font-weight: 400;
     text-align: center;
+    color: var(--txt-color);
+    margin: 0 auto 25px auto;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 p {
     font-family: rubik;
     font-size: 16px;
     text-align: center;
+    color: var(--txt-color);
+    margin: 20px auto 50px auto;
 }
 
-nav a {
+nav {
     font-family: rubik;
     font-size: 15px;
     text-align: center;
-    font-weight: 700;
+    font-weight: 900;
+    color: var(--txt-color);
+
+}
+
+.button {
+    width: 120px;
+}
+
+/*Controls*/
+
+.button-yes {
+    padding: 0.35em 1.2em;
+    margin: 50px 10px auto auto;
+    padding: 15px 30px 15px 30px;
+    border-radius: 0.12em;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+    background-color: #c8693a;
+}
+
+.button-yes:hover {
+    background-color: #804224;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-no {
+    padding: 0.35em 1.2em;
+    border: 0.2em solid #FFFFFF;
+    margin: 50px 10px auto auto;
+    padding: 12px 30px 12px 30px;
+    border-radius: 0.12em;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    color: #FFFFFF;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.button-no:hover {
+    transition: color 0.3s, background-color 0.3s;
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
 }
