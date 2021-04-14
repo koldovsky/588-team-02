@@ -15,6 +15,7 @@
     --orange-color: #c8693a;
     --black-color: black;
     scroll-behavior: smooth;
+    --sub-title: 'Rubik', sans-serif;
 }
 
 body {
@@ -24,6 +25,22 @@ body {
 
 /* 1 BLOCK START !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+* {padding: 0;margin: 0;border: 0;}
+*,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active {outline: none;}
+a:focus,a:active {outline: none;}
+nav,footer,header,aside {display: block;}
+html,body {height: 100%;width: 100%;font-size: 100%;line-height: 1;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+/*
 * {
     padding: 0;
     margin: 0;
@@ -101,21 +118,66 @@ ul li {
 img {
     vertical-align: top;
 }
-
+*/
 .wrap {
     max-width: 980px;
     margin: auto;
 }
 
-.site-title {
+@media (max-width:767px){
+    .wrap{
+        max-width: 700px;
+    }
+}
+
+@media (max-width:480px){
+    .wrap{
+        max-width: 400px;
+    }
+}
+
+
+@media (min-width:992px){
+    .wrap{
+        max-width: none;
+    }
+}
+
+header { 
     background: url(../img/site-title-background.webp) center no-repeat fixed;
-    background-size: 100% auto;
+    background-size: cover;
+    background-color:var(--back-color);
 }
 
-header {
-    background-color: rgba(0, 0, 0, 0.5);
+@media (max-width:767px) {
+    header {
+        background-size: cover;
+    }
 }
 
+@media (max-width:480px){
+    header {
+        background-size: cover;
+    }
+}
+
+@media (min-width:992px){
+    header {
+        background-size: cover;
+    }
+}
+
+.row {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.logo {
+    width:180px;
+    height:45px;
+    display: inline-block;
+    margin: 20px;
+}
+                                              /*NAV*/
 nav ul li {
     display: inline-block;
     position: relative;
@@ -128,61 +190,77 @@ nav ul li a {
 }
 
 nav ul li ul {
-    display: none;
+    display:none;
 }
 
 nav ul li:hover ul {
-    display: block;
+  display: block;
 }
 
 nav ul {
-    position: relative;
+    position:relative;
     display: inline-block;
     vertical-align: top;
 }
 
 nav ul li ul {
-    position: absolute;
+    position:absolute;
     background: var(--main-color);
     padding: 20px 30px;
     border-radius: 3px;
     top: 30px;
-    left: 0px;
+    left:0px;
 }
 
 nav ul li ul li {
-    color: black;
+    color:black;
 }
 
 nav {
     display: block;
-    float: right;
+    float: right; 
     padding-top: 20px;
+    color: var(--main-color);
 }
 
-.logo {
-    width: 180px;
-    height: 45px;
-    display: inline-block;
-    margin: 20px;
+                                              /*NAV*/
+
+.icons a img {
+    width:26px;
+    height:26px;
+    border:1px solid var(--main-color);
+    padding:5px;  
 }
 
-header .icons a img {
-    width: 26px;
-    height: 26px;
-    border: 1px solid white;
-    padding: 5px;
-}
-
-header .icons {
+.icons {
     display: inline-block;
 }
 
 .taste-our {
     display: flex;
     justify-content: flex-end;
-    margin-left: 400px;
-    margin-top: 200px;
+    margin-left:380px;
+    margin-top:200px;
+    margin-right: 20px;
+    padding-bottom: 100px;
+}
+
+@media (max-width:767px) {
+    .taste-our {
+        display: flex;
+        align-items: center;
+        padding-bottom: 100px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:480px) {
+    .taste-our {
+        display: flex;
+        justify-content: flex-start;
+        margin-left:0px;
+        padding-bottom: 100px;
+    }
 }
 
 .site-title i {
@@ -192,55 +270,123 @@ header .icons {
 
 .site-title h1 {
     font-size: 84px;
-    color: var(--main-color);
+    color: var(--main-color);   
 }
 
 .site-title b {
     font-size: 18px;
     display: block;
     margin-top: 20px;
-    color: var(--main-color);
+    color: var(--main-color); 
+    font-family: var(--sub-title);
 }
 
 .site-title a {
-    font-size: 18px;
-    display: inline-block;
+    font-size: 18px; 
+    display: inline-block; 
     margin-top: 20px;
-    color: var(--main-color);
+    color: var(--main-color); 
 }
 
 .shop-now {
-    background-color: brown;
+    background-color: brown; 
     padding: 10px 20px;
-    color: rgb(255, 255, 255)
+    color:  rgb(255, 255, 255)
 }
 
 .learn-more {
     border: rgb(255, 255, 255) solid;
     padding: 10px 20px;
-    color: rgb(255, 255, 255)
+    color:  rgb(255, 255, 255)   
 }
 
-.types-wine div.wrap {
+.types-wine {
+    background-color:var(--back-color);
+    padding-top: 100px;  
+    padding-bottom: 100px; 
+}
+
+.types-wine .wrap {
     display: flex;
-    justify-content: space-around;
-    margin-top: 140px;
-    padding-top: 100px;
+    justify-content: space-around; 
 }
 
-.item-italy {
+
+@media (max-width:900px) {
+    .types-wine .wrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+}
+
+@media (max-width:767px) {
+    .types-wine .wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 1200px;
+    }
+}
+
+@media (min-width:992px) {
+    .types-wine .wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:480px) {
+    .types-wine .wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 1200px;  
+    }
+}
+
+.item-italy { 
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     background: url(../img/w-from-italia.webp);
-    background-size: 100% auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    min-width: 300px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
     width: 300px;
     height: 380px;
     padding-top: 250px;
     padding-left: 40px;
     transition: 0.5s;
 }
+
+@media (max-width:767px){
+    .item-italy { 
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: url(../img/w-from-italia.webp);
+        background-size: 100% auto;
+        min-width: 600px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .item-italy {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 300px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);   
+        align-items: center;
+    }
+}
+
 
 .item-italy:hover {
     transform: scale(1.1);
@@ -252,12 +398,37 @@ header .icons {
     flex-direction: column;
     background: url(../img/w-from-georgia.webp);
     background-size: 100% auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    min-width: 300px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
     width: 300px;
     height: 380px;
     padding-top: 250px;
     padding-left: 40px;
     transition: 0.5s;
+}
+
+@media (max-width:767px){
+    .item-georgia { 
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: url(../img/w-from-italia.webp);
+        background-size: 100% auto;
+        min-width: 600px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .item-georgia {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 300px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);   
+        align-items: center;
+    }
 }
 
 .item-georgia:hover {
@@ -270,12 +441,37 @@ header .icons {
     flex-direction: column;
     background: url(../img/w-from-transcarpathian.webp);
     background-size: 100% auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    min-width: 300px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
     width: 300px;
     height: 380px;
     padding-top: 250px;
     padding-left: 40px;
     transition: 0.5s;
+}
+
+@media (max-width:767px){
+    .item-transcarpathian { 
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: url(../img/w-from-italia.webp);
+        background-size: 100% auto;
+        min-width: 600px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .item-transcarpathian {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        min-width: 300px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);   
+        align-items: center;
+    }
 }
 
 .item-transcarpathian:hover {
@@ -284,29 +480,43 @@ header .icons {
 
 .item-italy span {
     font-size: 22px;
-    color: white;
+    color:white;
 }
 
 .item-georgia span {
     font-size: 22px;
-    color: white;
+    color:white;
 }
 
 .item-transcarpathian span {
     font-size: 22px;
-    color: white;
+    color:white;
 }
 
-.item-italy,
-.item-georgia,
+.item-italy p {
+    font-size: 16px;
+    color:rgb(110, 110, 110);
+    font-family: var(--sub-title);
+    text-align: left;
+}
+
+.item-georgia p {
+    font-size: 16px;
+    color:rgb(110, 110, 110);
+    font-family: var(--sub-title);
+    text-align: left;
+}
+
 .item-transcarpathian p {
     font-size: 16px;
-    color: rgb(110, 110, 110);
+    color:rgb(110, 110, 110);
+    font-family: var(--sub-title);
+    text-align: left;
 }
 
 .item-italy a {
     font-size: 16px bold;
-    color: white;
+    color:white;
 }
 
 .item-italy a:hover {
@@ -316,7 +526,7 @@ header .icons {
 
 .item-georgia a {
     font-size: 16px bold;
-    color: white;
+    color:white;
 }
 
 .item-georgia a:hover {
@@ -326,7 +536,7 @@ header .icons {
 
 .item-transcarpathian a {
     font-size: 16px bold;
-    color: white;
+    color:white;
 }
 
 .item-transcarpathian a:hover {
@@ -335,53 +545,108 @@ header .icons {
 }
 
 .specialize {
-    padding: 100px 0px 100px 0px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     background-color: var(--back-color);
-}
-
-.specialize .wrap :nth-child(1) {
     text-align: center;
 }
 
-.specialize-natural h2 {
-    font-family: 'Prata';
-    font-size: 40px;
+.specialize-natural {
+    color: var(--main-color);
 }
 
 .specialize-natural span {
-    font-size: 40px;
+    color: var(--main-color);
+    font-family: var(--sub-title) ;
 }
 
-.specialize-i {
-    padding-top: 50px;
+.specialize-i{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
-.specialize-i-img {
+@media (max-width:480px) {
+    .specialize-i {
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:767px) {
+    .specialize-i {
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
+
+.specialize-i img {
+    display:block;
+    width:480px;
+    height:300px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8); 
     float: left;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    margin-left: 10px;
 }
 
-.item-i {
-    margin-left: 620px;
+@media (max-width:480px) {
+    .specialize-i img {
+        display:block;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+        max-width: 350px;
+        height:auto;
+    }
+}
+
+@media (max-width:767px) {
+    .specialize-i img {
+        display:block;
+        text-align: center;
+        margin-left: 50px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+        max-width: 700px;
+        height:auto;
+    }
 }
 
 .item-i span:hover {
-    color: rgb(218, 142, 71);
-    text-shadow: 5px 5px 10px black;
-    margin-left: 300px;
+    text-shadow: 5px 5px 10px  black;   
 }
 
-.item-i p {
-    text-align: justify;
+.item-i {
+    margin: 20px 10px 0px 10px;
 }
 
 .item-i span {
-    font-size: 22px;
+    color: var(--main-color);
+    font-size: 22px ;
+}
+
+.item-i p{
+    text-align: justify;
+    height:5px;
+    overflow:hidden;
+    padding-top: 5px; 
+}
+
+.item-i p:hover {
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.item-i span {
+    font-size: 22px ;
 }
 
 .item-i p {
-    font-size: 16px;
+    font-size: 14px ;
+    color: var(--main-color);
+    text-align: justify;
 }
 
 /* 1 BLOCK END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
