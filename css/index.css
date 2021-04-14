@@ -2,7 +2,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prata&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
@@ -15,6 +15,7 @@
     --orange-color: #c8693a;
     --black-color: black;
     scroll-behavior: smooth;
+    --main-font: rubik;
 }
 
 body {
@@ -154,7 +155,7 @@ nav ul li ul li {
     color: black;
 }
 
-nav {
+header div header div nav {
     display: block;
     float: right;
     padding-top: 20px;
@@ -209,16 +210,8 @@ header .icons {
     color: var(--main-color);
 }
 
-.shop-now {
-    background-color: brown;
-    padding: 10px 20px;
-    color: rgb(255, 255, 255)
-}
-
-.learn-more {
-    border: rgb(255, 255, 255) solid;
-    padding: 10px 20px;
-    color: rgb(255, 255, 255)
+.main-page-buttons {
+    margin-top: 35px;
 }
 
 .types-wine div.wrap {
@@ -496,34 +489,52 @@ section .card-text {
 
 /* Controls */
 
-.button {
-    padding: 0px;
-    margin: 0 0.3em 0.3em 0;
+.button-main {
+    padding: 15px 30px 15px 30px;
+    border-radius: 0.12em;
     color: #FFFFFF;
     text-decoration: none;
     text-align: center;
-    transition: color 0.7s;
+    transition: background-color 0.3s;
     background-color: var(--orange-color);
-    font-size: 10px;
-    border-color: #c8693a;
+    font-weight: 700;
+    font-family: var(--main-font);
 }
 
-.button:hover {
-    color: #af5112;
-    background-color: #af5112;
+.button-main:hover {
+    background-color: #af5b31;
     cursor: pointer;
-    border-color: #af5112;
+    transition: background-color 0.3s;
+}
+
+.button-additional {
+    padding: 0.35em 1.2em;
+    border: 0.2em solid #FFFFFF;
+    padding: 12px 30px 12px 30px;
+    border-radius: 0.12em;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
     color: #FFFFFF;
+    transition: color 0.3s, background-color 0.3s;
+    font-family: var(--main-font);
 }
 
-.card-button {
-    border-color: black;
-    color: black;
+.button-additional:hover {
+    transition: color 0.3s, background-color 0.3s;
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
 }
 
-.card-button:hover {
-    background-color: black;
-    color: white;
+.buy-wines nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.buy-wines nav button-main, .buy-wines nav .button-additional {
+    margin: 0 20px 0 20px;
 }
 
 /*2d block ending !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/

@@ -1,48 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-@media (min-width: 1280px) {
-    body {
-        width: 740px;
-        margin: auto;
-    }
-}
+@import "../css/media-responsive.css";
 
-@media (max-width: 1279px) {
-    body {
-        width: 580px;
-        margin: auto;
+@media (max-width: 380px) {
+    .button {
+        margin: 20px !important;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
     }
-}
 
-@media (max-width: 770px) {
-    body {
-        width: 480px;
-        margin: auto;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        width: 100%;
-    }
-}
-
-@media (max-width: 320px) {
-    body {
-        min-width: 320px;
+    p {
+        margin-bottom: 30px !important;
     }
 }
 
 body {
     --bg-color: #261e1c;
     --txt-color: #fff;
+    --main-font: rubik;
+    --title-font: prata;
     background-color: var(--bg-color);
     padding: 80px 0 80px 0;
+    font-family: var(--main-font);
 }
 
 h1 {
-    font-family: prata;
+    font-family: var(--title-font);
     font-size: 34px;
     font-weight: 400;
     text-align: center;
@@ -57,15 +42,13 @@ img {
 }
 
 p {
-    font-family: rubik;
     font-size: 16px;
     text-align: center;
     color: var(--txt-color);
-    margin: 20px auto 50px auto;
+    margin: 20px 20px 50px 20px;
 }
 
 nav {
-    font-family: rubik;
     font-size: 15px;
     text-align: center;
     font-weight: 900;
@@ -73,13 +56,9 @@ nav {
 
 }
 
-.button {
-    width: 120px;
-}
-
 /*Controls*/
 
-.button-yes {
+.button-main {
     padding: 0.35em 1.2em;
     margin: 50px 10px auto auto;
     padding: 15px 30px 15px 30px;
@@ -91,13 +70,13 @@ nav {
     background-color: #c8693a;
 }
 
-.button-yes:hover {
+.button-main:hover {
     background-color: #804224;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.button-no {
+.button-additional {
     padding: 0.35em 1.2em;
     border: 0.2em solid #FFFFFF;
     margin: 50px 10px auto auto;
@@ -110,7 +89,7 @@ nav {
     transition: color 0.3s, background-color 0.3s;
 }
 
-.button-no:hover {
+.button-additional:hover {
     transition: color 0.3s, background-color 0.3s;
     background-color: #FFFFFF;
     color: #000000;
