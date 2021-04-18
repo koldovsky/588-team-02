@@ -749,11 +749,12 @@ section .card-text {
 main {
     display: block;
     width: 100%;
-
+    background-color: var(--back-color);
 }
 
 .wrapper {
-    background-color: var(--back-color);
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 
