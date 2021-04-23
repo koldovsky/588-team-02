@@ -1118,10 +1118,73 @@ p {
 
 }
 
+.question  {
+ margin: 50px;
+}
+
 .wine {
     float: right;
     max-width: 250px;
     max-height: 400px;
+}
+
+.delivery {
+    margin: 50px;
+}
+
+.delivery p {
+    text-align: left;
+}
+
+.secure {
+    margin: 50px;
+}
+.secure p {
+    text-align: left; 
+}
+
+.eco-friendly {
+    margin: 50px;
+}
+
+.eco-friendly p {
+    text-align: left;
+}
+
+.discount {
+    margin: 50px;
+}
+
+.discount p {
+    text-align: left;
+}
+
+.form-ending {
+    margin: 50px;
+}
+
+.contact {
+    margin: 50px;
+}
+
+.contact p {
+    text-align: left;
+}
+
+.information {
+    margin: 50px;
+}
+
+.information p {
+    text-align: left;
+}
+
+.shops {
+    margin: 50px;
+}
+
+.shops p {
+    text-align: left;
 }
 
 
