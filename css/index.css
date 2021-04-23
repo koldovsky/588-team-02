@@ -944,7 +944,7 @@ main {
     padding: 0;
     background-image: url(../vovaimg/backgrounw.jpg);
     background-size: cover;
-    max-width: 1304px;
+    width: 1304px;
 }
 
 .wrapper {
