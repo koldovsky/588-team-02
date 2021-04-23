@@ -939,14 +939,6 @@ main {
     background-color: var(--back-color);
 }
 
-.info-block {
-    display: block;    
-    padding: 0;
-    background-image: url(../vovaimg/backgrounw.jpg);
-    background-size: cover;
-    width: 1304px;
-}
-
 .wrapper {
     max-width: 980px;
     margin: 0 auto;
@@ -971,6 +963,15 @@ a {
 
 .info {
     padding: 50px;
+}
+
+.info-block {   
+    display: block;
+    width: 100%;
+    padding: 0;
+    background-image: url(../img/backgrounw.jpg); 
+    background-size: cover;
+    
 }
 
 .info-block h3 {
