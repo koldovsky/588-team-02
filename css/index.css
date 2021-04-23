@@ -963,7 +963,7 @@ a {
 
 .info-block {
     display: block;
-    width: 100%;
+    width: 1280px;
     padding: 0;
     background-image: url(../vovaimg/backgrounw.jpg);
     background-size: cover;
