@@ -1,7 +1,5 @@
 /* FONTS DODAVAITE I NICHOGO NE VIDALYAITE AKUTATNISHE Z KODOM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
@@ -93,6 +91,16 @@ header {
     height:45px;
     display: inline-block;
     margin: 20px;
+}
+
+#menuToggle {
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+#menuToggle .input{
+    display: none;
 }
 
 @media (max-width: 767px) {
