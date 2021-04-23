@@ -962,8 +962,7 @@ a {
 /* INFO-BLOCK START */
 
 .info-block {
-    display: block;
-    width: 1280px;
+    display: block;    
     padding: 0;
     background-image: url(../vovaimg/backgrounw.jpg);
     background-size: cover;
