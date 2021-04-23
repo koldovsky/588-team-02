@@ -24,20 +24,15 @@ body {
 
 /* 1 BLOCK START !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-* {padding: 0;margin: 0;border: 0;}
-*,*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-:focus,:active {outline: none;}
-a:focus,a:active {outline: none;}
-nav,footer,header,aside {display: block;}
-html,body {height: 100%;width: 100%;font-size: 100%;line-height: 1;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
-input,button,textarea {font-family: inherit;}
-input::-ms-clear {display: none;}
-button {cursor: pointer;}
-button::-moz-focus-inner {padding: 0;border: 0;}
-a,a:visited {text-decoration: none;}
-a:hover {text-decoration: none;}
-ul li {list-style: none;}
-img {vertical-align: top;}
+* {
+    padding: 0;margin: 0;border: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 .wrap {
     max-width: 980px;
@@ -99,6 +94,100 @@ header {
     display: inline-block;
     margin: 20px;
 }
+
+@media (max-width: 767px) {
+    #menuToggle {
+        display: block;
+        position: relative;
+        top: 15px;
+        left: 10px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+      
+    #menuToggle a {
+        text-decoration: none;
+        color: #232323;
+        transition: color 0.3s ease;
+    }
+      
+    #menuToggle a:hover {
+        color: tomato;
+    }
+      
+      
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2; 
+        -webkit-touch-callout: none;
+    }
+      
+    #menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative; 
+        background: #cdcdcd;
+        border-radius: 3px;
+        z-index: 1;
+    }
+
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    #menu {
+        position: absolute;
+        width: 300px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background: #ededed;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    #menu li {
+        padding: 10px 0;
+        font-size: 22px;
+    }
+
+    #menuToggle input:checked ~ ul {
+        transform: none;
+    }
+}
+
                                               /*NAV*/
 nav ul li {
     display: inline-block;
@@ -110,6 +199,7 @@ nav ul li {
 nav ul li a {
     color: var(--main-color);
     font-size: bold;
+    font-family: var(--sub-title);
 }
 
 nav ul li ul {
@@ -124,6 +214,7 @@ nav ul {
     position:relative;
     display: inline-block;
     vertical-align: top;
+    
 }
 
 nav ul li ul {
@@ -157,6 +248,7 @@ header div header div nav {
 
 .icons {
     display: inline-block;
+    
 }
 
 .taste-our {
@@ -214,13 +306,13 @@ header div header div nav {
 .shop-now {
     background-color: brown; 
     padding: 10px 20px;
-    color:  rgb(255, 255, 255)
+    color: var(--main-color) ;
 }
 
 .learn-more {
-    border: rgb(255, 255, 255) solid;
+    border: var(--main-color) solid;
     padding: 10px 20px;
-    color:  rgb(255, 255, 255)   
+    color:  var(--main-color) ;
 }
 
 .types-wine {
@@ -405,17 +497,17 @@ header div header div nav {
 
 .item-italy span {
     font-size: 22px;
-    color:white;
+    color: var(--main-color) ;
 }
 
 .item-georgia span {
     font-size: 22px;
-    color:white;
+    color: var(--main-color);
 }
 
 .item-transcarpathian span {
     font-size: 22px;
-    color:white;
+    color: var(--main-color);
 }
 
 .item-italy p {
@@ -441,7 +533,7 @@ header div header div nav {
 
 .item-italy a {
     font-size: 16px bold;
-    color:white;
+    color: var(--main-color)white;
 }
 
 .item-italy a:hover {
@@ -451,22 +543,22 @@ header div header div nav {
 
 .item-georgia a {
     font-size: 16px bold;
-    color:white;
+    color: var(--main-color);
 }
 
 .item-georgia a:hover {
     text-decoration: underline;
-    color: white;
+    color: var(--main-color)white;
 }
 
 .item-transcarpathian a {
     font-size: 16px bold;
-    color:white;
+    color:var(--main-color);
 }
 
 .item-transcarpathian a:hover {
     text-decoration: underline;
-    color: white;
+    color: var(--main-color);
 }
 
 .specialize {
@@ -489,14 +581,29 @@ header div header div nav {
     font-family: var(--sub-title) ;
 }
 
-.specialize-i{
+.slider {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.slide-text {
+    position: absolute;
+    font-size: 35px;
+    left: 40%;
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+
+.item {
     display:flex;
     justify-content: space-between;
     margin-top: 50px;
 }
 
 @media (max-width:480px) {
-    .specialize-i {
+    .item {
         display:flex;
         justify-content: space-between;
         flex-direction: column;
@@ -505,7 +612,7 @@ header div header div nav {
 }
 
 @media (max-width:767px) {
-    .specialize-i {
+    .item {
         display:flex;
         justify-content: space-between;
         flex-direction: column;
@@ -513,7 +620,35 @@ header div header div nav {
     }
 }
 
-.specialize-i img {
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+ 
+a {
+text-decoration: none;
+color: var(--main-color);
+}
+
+.item img {
     display:block;
     width:480px;
     height:300px;
@@ -523,7 +658,7 @@ header div header div nav {
 }
 
 @media (max-width:480px) {
-    .specialize-i img {
+    .item img {
         display:block;
         text-align: center;
         box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
@@ -533,7 +668,7 @@ header div header div nav {
 }
 
 @media (max-width:767px) {
-    .specialize-i img {
+    .item img {
         display:block;
         text-align: center;
         margin-left: 50px;
@@ -565,8 +700,7 @@ header div header div nav {
 
 .item-i p:hover {
     height: auto;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 
 .item-i span {
@@ -577,6 +711,51 @@ header div header div nav {
     font-size: 14px ;
     color: var(--main-color);
     text-align: justify;
+}
+
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-dots {
+    text-align: center;
+}
+
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
 }
 
 /* 1 BLOCK END !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -621,13 +800,11 @@ header div header div nav {
     box-shadow: 0 4px 8px 0 var(--orange-color);
     transform: scale(1.1);
     transition: 0.5s;
-
 }
 
 section .card-text {
     text-align: center;
 }
-
 
 .italian-wine,
 .georgian-wine,
@@ -661,7 +838,7 @@ section .card-text {
     font-family: 'Prata', serif;
     font-size: 71px;
     font-weight: 400;
-    color: white;
+    color: var(--main-color);
     text-align: center;
 }
 
@@ -669,7 +846,7 @@ section .card-text {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: white;
+    color: var(--main-color);
     text-align: center;
 }
 
@@ -677,7 +854,7 @@ section .card-text {
     font-family: 'Prata', serif;
     font-size: 41px;
     font-weight: 400;
-    color: white;
+    color: var(--main-color);
     text-align: center;
 }
 
@@ -685,8 +862,7 @@ section .card-text {
     font-family: 'Rubik', sans-serif;
     font-size: 19px;
     font-weight: 700;
-    color: white;
-
+    color: var(--main-color);
 }
 
 /* Controls */
@@ -760,7 +936,6 @@ main {
     margin: 0 auto;
 }
 
-
 a {
     color: var(--main-color);
     font-family: verdana;
@@ -769,7 +944,7 @@ a {
     font-family: 'Poiret One';
 }
 
-a:hover {
+.info a:hover {
     color: red;
     text-decoration: none;
     font-family: 'Poiret One';
