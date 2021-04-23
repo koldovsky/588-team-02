@@ -690,22 +690,25 @@ section .card-text {
 }
 
 /* Controls */
-.button {
+.button-main {
     padding: 0px;
     margin: 0 0.3em 0.3em 0;
     color: #FFFFFF;
     text-decoration: none;
     text-align: center;
-    transition: background-color 0.3s;
+    transition: color 0.7s;
     background-color: var(--orange-color);
-    font-weight: 700;
-    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 400;
+    border-color: #c8693a;
 }
 
 .button-main:hover {
-    background-color: #af5b31;
+     color: #af5112;
+    background-color: #af5112;
     cursor: pointer;
-    transition: background-color 0.3s;
+    border-color: #af5112;
+    color: #FFFFFF;
 }
 
 .button-additional {

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/*'Rubik', sans-serif;*/
+/*'Great Vibes', cursive;*/
+/*'Prata', serif;*/
+
+:root {
+    --main-color: #261e1c;
+    --accent-color: #1a1512;
+    --orange-color: #c8693a;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+    background-color: var(--main-color);
+}
+
+
+.bg-light {
+    background-color: var(--accent-color) !important;
+}
+
+.nav-link {
+    color: white !important;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.products-carousel .small-img {
+    max-width: 80px;
+}
+
+.products-carousel img {
+    max-width: 413.8px;
+}
+
+
+footer {
+    color: white;
+    background-color: var(--accent-color);
+}
+
+body>div>div>div.fstsection.col-12.col-sm-12.col-md-6.col-lg-6>img {
+    width: 110.8px;
+    height: 110.8px;
+
+}
+
+.information p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(97, 168, 84);
+}
+
+.information h1 {
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
+.information h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.information h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.information h5 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.input {
+    width: 128px;
+    height: 36px;
+}
+
+.description h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.description {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.f-img img {
+    display: grid;
+    max-width: 60px;
+    justify-content: space-around;
+
+}
+
+.f-footer h3 {
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
+.f-footer article {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(137, 128, 130);
+}
+
+hr {
+    color: #c8693a;
+
+} 
+.button {
+    padding: 0px;
+    margin: 0 0.3em 0.3em 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: var(--orange-color);
+    font-size: 15px;
+    font-weight: 400;
+    border-color: #c8693a;
+
+}
+
+.button:hover {
+    color: #af5112;
+    background-color: #af5112;
+    cursor: pointer;
+    border-color: #af5112;
+    color: #FFFFFF;
+}
