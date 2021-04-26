@@ -1,5 +1,5 @@
                             /* CAROUSEL BLOCK 1*/
-const slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
  
 function plusSlide() {
@@ -15,7 +15,6 @@ function currentxSlide(n) {
 }
  
 function showSlides(n) {
-    const i;
     const slides = document.getElementsByClassName("item");
     const dots = document.getElementsByClassName("slider-dots_item");
     if (n > slides.length) {
@@ -33,6 +32,10 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+document.querySelector('.prev').addEventListener('click', minusSlide);
+document.querySelector('.next').addEventListener('click', plusSlide);
+
 
                           /* CAROUSEL BLOCK 3*/
 const images = [
