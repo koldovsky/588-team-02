@@ -1653,7 +1653,7 @@ a:hover {
     margin-right: 40px;
     text-align: center;
     font-family: 'Krona One', sans-serif;
-   
+
 }
 
 .discount {
@@ -1754,21 +1754,18 @@ a:hover {
     margin: 100px;
     margin-top: 10px;
     margin-bottom: 30px;
-
 }
 
 .join h3{
     margin: 100px;
     margin-bottom: 50px;
     margin-top: 3px;
-
 }
 
 .join h4 {
     margin: 100px;
     margin-bottom: 50px;
     margin-top: 3px;
-
 }
 
 
@@ -1777,12 +1774,10 @@ a:hover {
     margin-bottom: 50px;
     width: 200px;
     height: 150px;
-
 }
 
 .join img:hover {
     transform: scale(1.1);
-
 }
 
 .join form {
@@ -1823,8 +1818,7 @@ a:hover {
 
 .contact .information .shops {
     margin-right: 50px;
-    width: 150px;
-    
+    width: 150px; 
 }
 
 .contact h2{
