@@ -11,19 +11,12 @@
     --orange-color: #c8693a;
 }
 
-
 body {
-    
     max-width: 980px;
     margin: auto;
     background-color: var(--main-color);
 }
-.wine-infomation,
-.products-carousel
-{
-    padding-bottom: 95px;
-    
-}
+
 
 .bg-light {
     background-color: var(--accent-color) !important;
@@ -47,7 +40,12 @@ body {
 .products-carousel img {
     max-width: 413.8px;
 }
-
+.wine-infomation,
+.products-carousel
+{
+    padding-bottom: 95px;
+    
+}
 
 footer {
     color: white;
