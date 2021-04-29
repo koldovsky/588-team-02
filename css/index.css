@@ -1151,7 +1151,7 @@ a {
     background-size: cover;
     box-shadow: 0 2px 4px 0 var(--orange-color);
     transition: 0.3s;
-    max-width: 760px;
+    max-width: 980px;
     height: 280px;
     padding: 50px;
     margin: auto;
