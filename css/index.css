@@ -1328,7 +1328,7 @@ a {
     font-family: 'Krona One', sans-serif;
 }  
 
-.testimotials h1{
+.testimotials h1 {
     font-family: 'Dancing Script', cursive;
     color: orange;
 } 
@@ -1360,9 +1360,18 @@ a {
 
 }
 
+.testimotials h2  {
+    font-family: 'Prata', serif;
+}
+
+.testimotials p  {
+    font-family: 'Prata', serif;
+}
+
+
 .pattern {
     float: center;
-    padding-left: 50px;
+    margin-left: 20px;
     padding-top: 10px;
     min-width: 30px;
     min-height: 30px;
@@ -1375,13 +1384,14 @@ a {
 }
 
 .question h2 {
-    margin: auto;
-    font-family: 'Krona One', sans-serif;
+    margin: 10px;
+    font-family: 'Prata', serif;
 }
 
 .question li p {
     text-align: initial;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
 }
 
 .wine {
@@ -1399,7 +1409,8 @@ a {
 
 .question li p:hover {
     transform: scale(1.05);
-    font-family: 'Original Surfer', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
 }
 
 .question li p:hover {
@@ -1429,27 +1440,30 @@ a {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background: url(../img/delivery.jpg) top 50px left 50px no-repeat;
+    background: url(../img/delivery.jpg) top 10px  left 25px  no-repeat;
     background-size: 250px 200px;
     min-width: 300px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
     width: 300px;
-    height: 250px;
+    height: 450px;
     padding-top: 250px;
     padding-left: 40px;
     transition: 0.5s;
 }
 
+
 .delivery p {
+    margin-top: 20px;
     margin-right: 40px;
     text-align: center;
-    font-family: 'Original Surfer', cursive;
+    font-family:  'Rubik', sans-serif;
 }
    
 .delivery h2 {
+    margin-top: 5px;
     margin-right: 40px;
     text-align: center;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Prata', serif;
 
    
 }
@@ -1485,7 +1499,7 @@ a {
     
 .delivery p {
     text-align: center;
-    font-family: 'Original Surfer', cursive;
+    font-family:  'Rubik', sans-serif;
 }
 
 .delivery img {
@@ -1497,12 +1511,12 @@ a {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background: url(../img/secure-payment.jpg) top 50px left 50px no-repeat;
+    background: url(../img/secure-payment.jpg) top 10px left 25px no-repeat;
     background-size: 250px 200px;
     min-width: 300px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
     width: 300px;
-    height: 250px;
+    height: 450px;
     padding-top: 250px;
     padding-left: 40px;
     transition: 0.5s;
@@ -1539,16 +1553,18 @@ a {
     margin: 50px;
 }
 .secure p {
+    margin-top: 20px;
     margin-right: 40px;
     text-align: center; 
-    font-family: 'Original Surfer', cursive;
+    font-family:  'Rubik', sans-serif;
 
 }
 
 .secure h2 {
+    margin-top: 5px;
     margin-right: 40px;
     text-align: center;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Prata', serif;
 }
 
 .eco-friendly {
@@ -1556,12 +1572,12 @@ a {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background: url(../img/eco-friendly.jpg) top 50px left 50px no-repeat;
+    background: url(../img/eco-friendly.jpg) top 10px left 25px no-repeat;
     background-size: 250px 200px;
     min-width: 300px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
     width: 300px;
-    height: 250px;
+    height: 450px;
     padding-top: 250px;
     padding-left: 40px;
     transition: 0.5s;
@@ -1596,15 +1612,16 @@ a {
 }
 
 .eco-friendly p {
+    margin-top: 20px;
     margin-right: 40px;
     text-align: center; 
-    font-family: 'Original Surfer', cursive;
+    font-family:  'Rubik', sans-serif;
 }
 
 .eco-friendly h2 {
     margin-right: 40px;
     text-align: center;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Prata', serif;
 
 }
 
@@ -1613,12 +1630,12 @@ a {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background: url(../img/DISCOUNT.png) top 50px left 50px no-repeat;
+    background: url(../img/DISCOUNT.png) top 10px left 25px no-repeat;
     background-size: 250px 200px;
     min-width: 300px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
     width: 300px;
-    height: 250px;
+    height: 450px;
     padding-top: 250px;
     padding-left: 40px;
     transition: 0.5s;
@@ -1655,13 +1672,14 @@ a {
 .discount h2 {
     margin-right: 40px;
     text-align: center;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Prata', serif;
 }
 
 .discount p {
+    margin-top: 20px;
     margin-right: 40px;
     text-align: center;
-    font-family: 'Original Surfer', cursive;
+    font-family:  'Rubik', sans-serif;
 }
 
 .form-ending {
@@ -1700,7 +1718,7 @@ a {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.join h2{
+.join h2 {
     font-family: 'Dancing Script', cursive;
     color: orange;
     margin: 100px;
@@ -1708,16 +1726,18 @@ a {
     margin-bottom: 30px;
 }
 
-.join h3{
+.join h3 {
     margin: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 3px;
+    font-family: 'Prata', serif;
 }
 
 .join h4 {
     margin: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 3px;
+    font-family: 'Prata', serif;
 }
 
 
@@ -1733,7 +1753,8 @@ a {
 }
 
 .join form {
-    margin: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
     margin-bottom: 50px;
     width: 200px;
     height: 150px;
@@ -1773,34 +1794,34 @@ a {
     width: 150px; 
 }
 
-.contact h2{
-    font-family: 'Krona One', sans-serif;
+.contact h2 {
+    font-family: 'Prata', serif;
 }
 .contact p {
     text-decoration: none;
     color: orange;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'Rubik', sans-serif; 
 }
 
 .information h2{
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Prata', serif;
 }
 
 .information a {
     color: orange;
     text-decoration: none;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'Rubik', sans-serif; 
 }
 
 
 .shops h2{
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Prata', serif;
 
 }
 .shops a {
     color: orange;
     text-decoration: none;
-    font-family: 'Original Surfer', cursive;
+    font-family: 'Rubik', sans-serif; 
 
 }
 
