@@ -33,13 +33,13 @@
                         <span></span>
                         <span></span>
                         <ul id="menu">
-                            <li><a href="#best-deals">Best Deals</a></li>
-                            <li><a href="#about-us">About Us</a></li>
+                            <li><a href="#cblock">Best Deals</a></li>
+                            <li><a href="#shipping">About Us</a></li>
                             <li><a href="#shop">Shop</a>
                                 <ul>
                                     <li><a href="#italy-wines">Italy wines</a></li>
-                                    <li><a href="#georgian wines">Georgian wines</a></li>
-                                    <li><a href="#transcarpathian wines">Transcarpathian wines</a></li>
+                                    <li><a href="#georgian-wines">Georgian wines</a></li>
+                                    <li><a href="#transcarpathian-wines">Transcarpathian wines</a></li>
                                 </ul>
                             </li>          
                             <li><a href="#footer-ending">Contact Us</a></li>
@@ -59,8 +59,8 @@
                         <h1>Boutique Wines</h1>
                         <img src="img/pattern.svg" alt="pattern">
                         <b>Grown with love and respect for the lands of the world.</b>
-                        <a class="shop-now" href="#">Shop now</a>
-                        <a class="learn-more" href="#">Learn more</a>
+                        <a class="shop-now" href="#shop">Shop now</a>
+                        <a class="learn-more" href="#specialize">Learn more</a>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                 </div>
             </div>
         </div>
-       <div class="specialize">
+       <div class="specialize" id="specialize">
             <div class="wrap">  
                 <div>
                     <i>100% natural</i><br>
@@ -346,10 +346,9 @@
             </div>
         </div>
 
-
         <!--2st block ending-->
         <!--BLOCK 3 CHEKAITE VIDMITKI !!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-        <main class="wrapper">   
+        <div class="wrapper">   
             <div class="info-block">
                 <section class="info">
                     <h2>Process of production</h2>
@@ -383,7 +382,7 @@
                             </div>
                     </article>
                 </div>    
-                <div class="cblock">  
+                <div class="cblock" id="cblock">  
                     <div class="counttext">               
                         <h2>HOT SALE</h2>
                     </div>                        
@@ -446,7 +445,7 @@
                     </li>
                 </ul>
             </div>
-        </main>
+        </div>
 
         <!--3st block ending!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
@@ -505,7 +504,7 @@
                     <br><br>
                 </ul>
             </section>
-            <div class="shipping">
+            <div class="shipping" id="shipping">
                 <section class="delivery">
                     <h2>Fast & Free Shipping</h2>
                     <p>We offer free delivery
@@ -546,35 +545,35 @@
                         </label>
                             <input class="submit" type="submit">
                     </form>
-            </section>
-            </div>
-                <div class="footer-ending">
-                    <section class="contact">
-                        <h2>Contact us</h2>
-                        <p>caliwines@email.com</p>
-                        <p>+1 (234) 567 89 00</p>
-                        <p>1111 White Ln,</p> 
-                        <p>St Helena, CA 94574</p>
-                    </section>
-                    <section class="information">
-                        <h2>Information</h2>
-                        <p><a href="#">History</a></p>
-                        <p><a href="#">About us</a></p>
-                        <p><a href="#">Awards</a></p>
-                        <p><a href="#">FAQ</a></p>
-                    </section>
-                    <section class="shops">
-                        <h2>Shop</h2>
-                        <p><a href="#">Best deals</a></p>
-                        <p><a href="#">All wines</a></p>
-                        <p><a href="#">Delivery information</a></p>
-                        <p><a href="#">Terms & Conditions</a></p>
-                    </section>
-                </div>
+                </section>
             </div>
         </div>
-        <!--4st block ending-->
     </main>
+    <footer class="footer-ending" id="footer-ending">
+        <section class="contact">
+            <h2>Contact us</h2>
+            <p>caliwines@email.com</p>
+            <p>+1 (234) 567 89 00</p>
+            <p>1111 White Ln,</p> 
+            <p>St Helena, CA 94574</p>
+        </section>
+        <section class="information">
+            <h2>Information</h2>
+            <p><a href="#">History</a></p>
+            <p><a href="#">About us</a></p>
+            <p><a href="#">Awards</a></p>
+            <p><a href="#">FAQ</a></p>
+        </section>
+        <section class="shops">
+            <h2>Shop</h2>
+            <p><a href="#">Best deals</a></p>
+            <p><a href="#">All wines</a></p>
+            <p><a href="#">Delivery information</a></p>
+            <p><a href="#">Terms & Conditions</a></p>
+        </section>
+    </footer>
+        <!--4st block ending-->
+    
     <script src="js/carousel.js"></script>
     <script src="js/countdown.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>

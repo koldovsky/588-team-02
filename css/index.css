@@ -278,6 +278,10 @@ nav ul li a {
     .icons {
         display: none;
     }
+
+    .logo {
+        margin-left: 300px;
+    }
 }
 
 .taste-our {
